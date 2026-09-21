@@ -24,7 +24,7 @@
 ## 安装
 
 ```bash
-git clone https://github.com/<you>/business-operator-skill.git ~/.claude/skills/business-operator
+git clone https://github.com/awesomefrankge-AI/business-operator-skill.git ~/.claude/skills/business-operator
 ```
 
 Claude Code 启动后自动识别（`~/.claude/skills/` 下任何含 `SKILL.md` 的目录）。也可放到项目级 `.claude/skills/business-operator/`。
