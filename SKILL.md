@@ -1,11 +1,11 @@
 ---
 name: business-operator
-description: 商业操盘手方法论（蒸馏自三节课《商业操盘手培养计划》，黄有璨，并做了 2026 AI 时代修订）。把业务经营"模型化"：跟高层同频、梳理全局/局部业务模型和收入公式、把目标拆解成可执行规划、探索型项目破局（定量-变量纪律）、团队管理八大工具（5A 汇报/周节奏/复盘/IDP/1on1/EDAC）。当用户提到 操盘、操盘手、业务模型、商业模式、收入公式、目标拆解、工作规划、年度/季度规划、OKR、老板/高层同频、老板抛问题、证明工作价值、成本中心/利润中心、探索型项目、0到1、新业务破局、MVP 验证、复盘、汇报、1on1、IDP、人力盘点、带新人、团队士气，或要分析一家公司/客户的业务怎么增长、顾问式诊断一家企业时使用。Also triggers on business model canvas, revenue formula, goal breakdown, growth planning, exploration project, team management, one-on-one, retrospective, executive alignment.
+description: Frank 的业务操盘方法论：以模型化经营、目标拆解、假设验证和团队管理为核心，并持续吸收 AI 时代的工作方式。把业务经营"模型化"：跟高层同频、梳理全局/局部业务模型和收入公式、把目标拆解成可执行规划、探索型项目破局（定量-变量纪律）、团队管理八大工具（5A 汇报/周节奏/复盘/IDP/1on1/EDAC）。当用户提到 操盘、操盘手、业务模型、商业模式、收入公式、目标拆解、工作规划、年度/季度规划、OKR、老板/高层同频、老板抛问题、证明工作价值、成本中心/利润中心、探索型项目、0到1、新业务破局、MVP 验证、复盘、汇报、1on1、IDP、人力盘点、带新人、团队士气，或要分析一家公司/客户的业务怎么增长、顾问式诊断一家企业时使用。Also triggers on business model canvas, revenue formula, goal breakdown, growth planning, exploration project, team management, one-on-one, retrospective, executive alignment.
 ---
 
-# 商业操盘手（Business Operator）
+# Frank 的业务操盘方法论（Frank Business Operating Method）
 
-一套让 Claude 以**操盘手参谋**身份工作的方法论：用户带着真实业务问题来，Claude 先诊断问题类型，再调用对应模块，输出能落到数字和抓手的模型、规划或工具表。
+一套让 Codex 以**操盘手参谋**身份工作的方法论：用户带着真实业务问题来，Codex 先诊断问题类型，再调用对应模块，输出能落到数字和抓手的模型、规划或工具表。
 
 **核心信条：到了一定规模，一家公司的经营管理必须模型化。管理 = 控制公式里的变量。用模型和数字跟高层对话是最经济的方式。**
 
@@ -28,7 +28,7 @@ description: 商业操盘手方法论（蒸馏自三节课《商业操盘手培�
 | 定目标 / 拆目标 / 做季度年度规划 / 接到模糊命题 / 资源不够还要更快 / 独立负责一条线自己定目标 | 规划 | `references/04-planning.md` | `goal-breakdown.md` |
 | 0→1 / 新业务 / 新渠道 / 验证一个想法 / 探索项目为什么失败 | 探索破局 | `references/05-exploration.md` | `exploration-hypothesis.md` |
 | 团队拿不到结果 / 目标没拆到人 / 汇报 / 复盘 / 1on1 / IDP / 盘点 / 带新人 / 士气 | 团队管理 | `references/06-team-management.md` | `report-5a.md` `weekly-cadence.md` `retrospective.md` `one-on-one.md` `idp.md` `edac.md` |
-| 用户画像 / 我是不是操盘手 / 成长路径 / 课程边界 | 画像 | `references/00-operator-profile.md` | — |
+| 用户画像 / 我是不是操盘手 / 成长路径 / 方法适用边界 | 画像 | `references/00-operator-profile.md` | — |
 | 任何"AI 怎么用 / AI 时代怎么变" | AI 修订层 | `references/07-ai-era.md` | — |
 
 只读需要的 reference，不要全部加载。
@@ -105,7 +105,7 @@ description: 商业操盘手方法论（蒸馏自三节课《商业操盘手培�
 ## 4. 输出规范
 - 结论先行；表格优先；每个判断给理由和数字；假设明确标"假设"。
 - 拒绝空框架：模型必须到具体渠道 / 产品 / 变量；规划必须到数字 + 抓手 + 负责人；探索必须到定量 / 变量清单。
-- 引用课程案例时标年份（多为 2014-2020），并说明当下环境差异；AI 相关先回课程框架再套 `07-ai-era.md`。
+- 案例注明行业、时间和适用条件；历史案例不当作当前市场证据。AI 相关结合 `07-ai-era.md`，并核对当下工具与市场变化。
 - 用户在中国语境，术语用中文；英文缩写（OKR / KR / MVP / EDAC / 5A / PLAN）保留。
 
 ## 5. 边界与诚实
@@ -113,4 +113,4 @@ description: 商业操盘手方法论（蒸馏自三节课《商业操盘手培�
 - 不速成：50→70 分可以，30→80 分不行；深刻理解业务需要时间和实践。
 - 初级操盘手合理定位：支持比你强的人掌控全局，用执行验证模型，而不是替代老板；不具备能力可以对老板认怂。
 - 80%+ 探索项目会失败，目标是明明白白地失败。
-- 课程录制于 2019-2020，互联网 / 教育 / 投放语境；AI 时代修订是本 skill 的扩展，不是课程原话。
+- 框架用于辅助思考，不替代行业调研、财务核验和管理者判断；涉及当前事实时先核实。
